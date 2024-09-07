@@ -1,0 +1,28 @@
+{
+	"honestDiaperCream": [
+		{
+			"image": "../images/honestDiaperCreamIMG/honest1.jpg",
+			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
+			"price": "Արժեքը՝ 7300 դր.",
+			"weight": "70.8 գր"
+		},
+		{
+			"image": "../images/honestDiaperCreamIMG/honest2.jpg",
+			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
+			"price": "Արժեքը՝ 7300 դր.",
+			"weight": "70.8 գր"
+		},
+		{
+			"image": "../images/honestDiaperCreamIMG/honest3.jpg",
+			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
+			"price": "Արժեքը՝ 7300 դր.",
+			"weight": "70.8 գր"
+		},
+		{
+			"image": "../images/honestDiaperCreamIMG/honest4.jpg",
+			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
+			"price": "Արժեքը՝ 7300 դր.",
+			"weight": "70.8 գր"
+		}
+	]
+}

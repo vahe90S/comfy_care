@@ -1,0 +1,18 @@
+@use './styles/reset.scss';
+@use './fonts/fonts.scss';
+@use './icons/style.scss';
+@use './styles/variables.scss' as *;
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Poppins', semi-bold;
+}
+
+#root {
+	min-height: 100vh;
+	padding: 0 rem(20);
+}

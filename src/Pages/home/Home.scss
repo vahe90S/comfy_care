@@ -1,0 +1,115 @@
+@use '../../styles/variables.scss' as *;
+
+.container-home {
+	.container-home-bg {
+		background: linear-gradient(to right, #efc7a2, #7c896d);
+		width: 100%;
+		height: rem(800);
+	}
+	.container-register-for-discount {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 rem(40);
+		.container-text-get-discount {
+			display: flex;
+			flex-direction: column;
+			row-gap: rem(20);
+			color: $primaryColor;
+			p {
+				max-width: rem(300);
+				font-size: rem(20);
+				font-weight: 700;
+			}
+			button {
+				padding: rem(8) rem(20);
+				border-radius: 10px;
+				align-self: flex-start;
+				background: #ffffff;
+				color: $primaryColor;
+			}
+		}
+		.container-sub-img {
+			max-width: rem(470);
+			gap: rem(6);
+			display: grid;
+			grid-template-rows: repeat(3, 1fr);
+			grid-template-columns: 2fr 1fr 1fr;
+			grid-template-areas:
+				'first second third'
+				'first fourth fifth'
+				'first sixth seventh';
+			.first {
+				grid-area: first;
+			}
+			.second {
+				grid-area: second;
+			}
+			.third {
+				grid-area: third;
+			}
+			.fourth {
+				grid-area: fourth;
+			}
+			.fifth {
+				grid-area: fifth;
+			}
+			.sixth {
+				grid-area: sixth;
+			}
+			.seventh {
+				grid-area: seventh;
+			}
+		}
+		.container-sub-img-element {
+			width: 100%;
+			height: 100%;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+	.container-shop-by-category {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h3 {
+			margin: rem(60) 0;
+			color: $primaryColor;
+			font-size: rem(42);
+			font-weight: 400;
+		}
+		.container-category {
+			display: flex;
+			gap: rem(20);
+			.category {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: rem(10);
+				.caption-category {
+					display: flex;
+					max-width: rem(250);
+					height: rem(550);
+					overflow: hidden;
+					img {
+						height: 100%;
+						width: 100%;
+						object-fit: cover;
+						transition: all 0.4s ease;
+						&:hover {
+							transform: scale(1.2);
+						}
+					}
+				}
+				h4 {
+					color: $primaryColor;
+				}
+			}
+		}
+	}
+}
