@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19a22f4-2432-4ff5-b432-0d53ee2b8e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Pipette-diaper-cream/Diaper-Cream-pipette-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Pipette-diaper-cream/diaper-cream-pipette.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette1 .webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewborns.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewborns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewbornsProducts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewbornsProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/10-044_CalendulaBabyOil_lifestyle3_1080x1080_web.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Kazam_screenshot_00000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/baby-mineral-sunscreen-lotion-SPF-40.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/calendula-body-oil.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/comfy-mama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/home-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honest.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honestDiaperCreamIMG/honest1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honestDiaperCreamIMG/honest2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honestDiaperCreamIMG/honest3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honestDiaperCreamIMG/honest4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honist-bubble-bath.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honist-calm-your-nip-balm.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/honist-face-body.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/organic-body-face.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/DB.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/DB.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +88,7 @@
       <workItem from="1725875424745" duration="9616000" />
       <workItem from="1725910949343" duration="598000" />
       <workItem from="1725911620545" duration="1774000" />
-      <workItem from="1725944602613" duration="15297000" />
+      <workItem from="1725944602613" duration="16465000" />
     </task>
     <servers />
   </component>
