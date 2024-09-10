@@ -1,23 +1,33 @@
 @use '../../styles/variables.scss' as *;
 
 header {
-	display: flex;
-	align-items: center;
-	height: rem(80);
-	.container-logo {
-		max-width: rem(40);
-		height: rem(40);
-		margin-right: rem(20);
-		img {
-			width: 100%;
-		}
-	}
-	.container-right-side {
-		display: flex;
-		column-gap: rem(20);
-		i {
-			color: $primaryColor;
-			font-size: rem(20);
-		}
-	}
+  display: flex;
+  align-items: center;
+  height: rem(80);
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 0 rem(20);
+
+  .container-logo {
+    max-width: rem(40);
+    height: rem(40);
+    margin-right: rem(20);
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .container-right-side {
+    display: flex;
+    column-gap: rem(20);
+
+    i {
+      color: $primaryColor;
+      font-size: rem(20);
+    }
+  }
 }

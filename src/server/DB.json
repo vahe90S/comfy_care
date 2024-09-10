@@ -1,28 +1,64 @@
 {
-	"honestDiaperCream": [
-		{
-			"image": "../images/honestDiaperCreamIMG/honest1.jpg",
-			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
-			"price": "Արժեքը՝ 7300 դր.",
-			"weight": "70.8 գր"
-		},
-		{
-			"image": "../images/honestDiaperCreamIMG/honest2.jpg",
-			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
-			"price": "Արժեքը՝ 7300 դր.",
-			"weight": "70.8 գր"
-		},
-		{
-			"image": "../images/honestDiaperCreamIMG/honest3.jpg",
-			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
-			"price": "Արժեքը՝ 7300 դր.",
-			"weight": "70.8 գր"
-		},
-		{
-			"image": "../images/honestDiaperCreamIMG/honest4.jpg",
-			"captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք",
-			"price": "Արժեքը՝ 7300 դր.",
-			"weight": "70.8 գր"
-		}
-	]
+  "honestDiaperCream": [
+    {
+      "id": "1",
+      "image": "../images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette2.webp",
+      "captionCream": "Մարմնի լոսիոն Pipette ",
+      "price": "Արժեքը՝ 6800 ֏",
+      "weight": "Տարողություն՝ (170 մլ)"
+    },
+    {
+      "id": "2",
+      "image": "../images/honestDiaperCreamIMG/honest2.jpg",
+      "captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք Honest",
+      "price": "7300 ֏",
+      "weight": "70.8 գր"
+    },
+    {
+      "id": "3",
+      "image": "../images/Pipette-diaper-cream/Diaper-Cream-pipette-2.webp",
+      "captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք Pipette",
+      "price": "8400 ֏",
+      "weight": "70.8 գր"
+    },
+    {
+      "id": "4",
+      "image": "../images/honestDiaperCreamIMG/honest4.jpg",
+      "captionCream": "Տակդիրի հատվածի համար նախատեսված քսուք Weleda",
+      "price": "Արժեքը՝ 7300 դր.",
+      "weight": "70.8 գր"
+    }
+  ],
+  "bodyLotionPipette": [
+    {
+      "id": "1",
+      "image": "../images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette1 .webp",
+      "price": "8400 ֏",
+      "name": "lorem ipsum",
+      "freeShipping": "25000 dr. + gnelu depqum kunenaq anvchar araqum",
+      "quantity": "3",
+      "aroma": "Vanilla + Ylang Ylang",
+      "size": "Regular 11.8 fl oz"
+    },
+    {
+      "id": "2",
+      "image": "../images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette1 .webp",
+      "price": "8400 ֏",
+      "name": "lorem ipsum",
+      "freeShipping": "25000 dr. + gnelu depqum kunenaq anvchar araqum",
+      "quantity": "2",
+      "aroma": "Fragrance Free",
+      "size": "Regular 11.8 fl oz"
+    },
+    {
+      "id": "3",
+      "image": "../images/honestDiaperCreamIMG/Baby-lotion-pipette/Baby-lotion-Pipette1 .webp",
+      "price": "8400 ֏",
+      "name": "lorem ipsum",
+      "freeShipping": "25000 dr. + gnelu depqum kunenaq anvchar araqum",
+      "quantity": "3",
+      "aroma": "Fragrance Free",
+      "size": "Regular 11.8 fl oz"
+    }
+  ]
 }

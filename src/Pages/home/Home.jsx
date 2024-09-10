@@ -1,13 +1,6 @@
 import React from 'react'
-import './Home.scss'
-import subPic1 from '../../images/honist-bubble-bath.webp'
-import subPic2 from '../../images/calendula-body-oil.webp'
-import subPic3 from '../../images/honist-face-body.webp'
-import subPic4 from '../../images/organic-body-face.webp'
-import subPic5 from '../../images/organic-body-face.webp'
-import subPic6 from '../../images/10-044_CalendulaBabyOil_lifestyle3_1080x1080_web.webp'
-import subPic7 from '../../images/honest.webp'
 import { Link } from 'react-router-dom'
+import './Home.scss'
 
 export default function Home() {
 	return (
@@ -21,25 +14,26 @@ export default function Home() {
 					</div>
 					<div className='container-sub-img'>
 						<div className='container-sub-img-element first'>
-							<img src={subPic6} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
+
 						</div>
 						<div className='container-sub-img-element second'>
-							<img src={subPic2} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
 						</div>
 						<div className='container-sub-img-element third'>
-							<img src={subPic3} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
 						</div>
 						<div className='container-sub-img-element fourth'>
-							<img src={subPic4} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
 						</div>
 						<div className='container-sub-img-element fifth'>
-							<img src={subPic5} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
 						</div>
 						<div className='container-sub-img-element sixth'>
-							<img src={subPic1} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
 						</div>
 						<div className='container-sub-img-element seventh'>
-							<img src={subPic7} alt='cdc' />
+							<img src='/images/baby-mineral-sunscreen-lotion-SPF-40.webp' alt='cdc'/>
 						</div>
 					</div>
 				</div>
@@ -49,7 +43,7 @@ export default function Home() {
 				<div className='container-category'>
 					<div className='category'>
 						<Link to='ChildrenAndNewborns' className='caption-category'>
-							<img src={subPic1} alt='ccd' />
+							<img src='/images/honestDiaperCreamIMG/honest4.jpg' alt='cdc'/>
 						</Link>
 						<Link to='ChildrenAndNewborns'>
 							<h4>երեխաներ եւ նործիններ</h4>
@@ -58,7 +52,7 @@ export default function Home() {
 
 					<div className='category'>
 						<Link to='Mothers' className='caption-category'>
-							<img src={subPic1} alt='ccd' />
+							<img src='/images/honestDiaperCreamIMG/honest4.jpg' alt='cdc'/>
 						</Link>
 						<Link to='Mothers'>
 							<h4>մայրիկներ</h4>
@@ -67,7 +61,7 @@ export default function Home() {
 
 					<div className='category'>
 						<Link to='Pregnant' className='caption-category'>
-							<img src={subPic1} alt='ccd' />
+							<img src='/images/honestDiaperCreamIMG/honest4.jpg' alt='cdc'/>
 						</Link>
 						<Link to='Pregnant'>
 							<h4>հղիներ</h4>
@@ -76,7 +70,7 @@ export default function Home() {
 
 					<div className='category'>
 						<Link to='Detergents' className='caption-category'>
-							<img src={subPic1} alt='ccd' />
+							<img src='/images/honestDiaperCreamIMG/honest4.jpg' alt='cdc'/>
 						</Link>
 						<Link to='Detergents'>
 							<h4>լվացող միջոցներ</h4>
@@ -85,7 +79,7 @@ export default function Home() {
 
 					<div className='category'>
 						<Link to='giftSets' className='caption-category'>
-							<img src={subPic1} alt='ccd' />
+							<img src='/images/honestDiaperCreamIMG/honest4.jpg' alt='cdc'/>
 						</Link>
 						<Link to='giftSets'>
 							<h4>նվերների սեթեր</h4>

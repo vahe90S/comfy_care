@@ -1,0 +1,43 @@
+@use '../../../styles/variables' as *;
+
+.container-child-and-mam {
+  background: #f6f3ec;
+  padding: rem(40) 0;
+
+  h2, p {
+    text-align: center;
+    color: $primaryColor;
+    margin-bottom: rem(20);
+  }
+
+  .sub-container-child-and-mam {
+    display: flex;
+
+    .container-product {
+      .container-product-img {
+        display: flex;
+        width: rem(220);
+        height: rem(220);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .container-caption-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: rem(20);
+        padding: rem(20) 0;
+        color: $primaryColor;
+
+        .container-text {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
