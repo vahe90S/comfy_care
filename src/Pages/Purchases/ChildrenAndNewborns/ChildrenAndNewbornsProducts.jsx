@@ -55,7 +55,6 @@ export default function ChildrenAndNewbornsProducts() {
             body: JSON.stringify({[field]: value}),
         });
     };
-
     return (
         <div className="container-crem-pipette">
             {
