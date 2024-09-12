@@ -1,0 +1,48 @@
+@use '../../styles/variables.scss' as *;
+
+.content-registration {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(20);
+  border: 4px solid $primaryColor;
+  padding: rem(50) rem(30);
+  background: #f7f3ed;
+  border-radius: rem(40);
+
+  h2 {
+    color: $primaryColor;
+    text-align: center;
+    margin-bottom: rem(20);
+  }
+
+  .container-inp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $primaryColor;
+
+    input {
+      padding: rem(8);
+      border-radius: rem(10);
+      border: 1px solid $primaryColor;
+
+      &::placeholder {
+        color: $primaryColor;
+      }
+    }
+  }
+
+  .container-btns {
+    display: flex;
+    column-gap: rem(20);
+    margin-top: rem(20);
+
+    button {
+      border-radius: rem(10);
+      background: $primaryColor;
+      color: #efc7a2;
+      padding: rem(10) rem(40);
+      align-self: center;
+    }
+  }
+}

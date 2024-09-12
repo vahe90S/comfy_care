@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {Route, Routes} from 'react-router-dom'
 import Home from '../Pages/home/Home'
 import Layout from '../Layout/Layout'
@@ -11,13 +11,24 @@ import DeliveryTerms from '../Pages/Purchases/DeliveryTerms'
 import BestSeller from '../Pages/BestSeller/BestSeller'
 import GiftSets from '../Pages/GiftSets/GiftSets'
 import ChildrenAndNewbornsProducts from "../Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewbornsProducts";
+import LoginPage from "../components/LoginPage/LoginPage";
+import Registration from "../components/Registration/Registration";
 
 
 export default function AppRouter() {
+    const [usersData, setUsersData] = useState([]);
+    useEffect(() => {
+        const getUsersData = async () => {
+            const res = await fetch('http://localhost:8080/userData');
+            const data = await res.json();
+            setUsersData(data);
+        }
+        getUsersData();
+    }, []);
     return (
         <div>
             <Routes>
-                <Route path='/' element={<Layout/>}>
+                <Route path='/' element={<Layout usersData={usersData} setUsersData={setUsersData}/>}>
                     <Route index element={<Home/>}/>
                     <Route path='ChildrenAndNewborns' element={<ChildrenAndNewborns/>}/>
                     <Route path='ChildrenAndNewborns/:id' element={<ChildrenAndNewbornsProducts/>}/>
@@ -30,7 +41,10 @@ export default function AppRouter() {
                     <Route path='BestSeller' element={<BestSeller/>}/>
                     <Route path='GiftSets' element={<GiftSets/>}/>
                 </Route>
+                <Route path='login' element={<LoginPage/>}/>
+                <Route path='registration' element={<Registration/>}/>
             </Routes>
         </div>
     )
 }
+

@@ -18,16 +18,38 @@ header {
 
     img {
       width: 100%;
+      height: 100%;
     }
+  }
+
+  .registration {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: rem(300);
+    transition: max-height 0.4s ease;
+    left: 50%;
   }
 
   .container-right-side {
     display: flex;
     column-gap: rem(20);
+    position: relative;
+
+    .container-register-and-login {
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      top: rem(55);
+      left: rem(-172);
+      transition: all 0.4s ease;
+    }
 
     i {
       color: $primaryColor;
       font-size: rem(20);
+      cursor: pointer;
     }
   }
 }
+

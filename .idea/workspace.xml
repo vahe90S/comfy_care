@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19a22f4-2432-4ff5-b432-0d53ee2b8e77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Registration/Registration.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RegistrationAndLogIn/RegistrationAndLogIn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RegistrationAndLogIn/RegistrationAndLogIn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewbornsProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewbornsProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/DB.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/DB.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,25 +44,28 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2llMSJ3NVYiHL1GWr2CIPcEK4XZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/media/vahe/Data/Vahe's Backup/comfy_care/public/images/Pipette-diaper-cream",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "ts.external.directory.path": "/snap/webstorm/399/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;comfy__care&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/vahe/Data/Vahe's Backup/comfy_care/public/images/Pipette-diaper-cream&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/399/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/Pipette-diaper-cream" />
@@ -91,7 +108,9 @@
       <workItem from="1725911620545" duration="1774000" />
       <workItem from="1725944602613" duration="16465000" />
       <workItem from="1725961592104" duration="125000" />
-      <workItem from="1726032676787" duration="1461000" />
+      <workItem from="1726032676787" duration="4340000" />
+      <workItem from="1726037028092" duration="10771000" />
+      <workItem from="1726117022650" duration="16267000" />
     </task>
     <servers />
   </component>
