@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19a22f4-2432-4ff5-b432-0d53ee2b8e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Registration/Registration.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RegistrationAndLogIn/RegistrationAndLogIn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RegistrationAndLogIn/RegistrationAndLogIn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/DB.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/DB.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +96,9 @@
       <workItem from="1725961592104" duration="125000" />
       <workItem from="1726032676787" duration="4340000" />
       <workItem from="1726037028092" duration="10771000" />
-      <workItem from="1726117022650" duration="16267000" />
+      <workItem from="1726117022650" duration="17144000" />
+      <workItem from="1726378416533" duration="6000" />
+      <workItem from="1726381081601" duration="328000" />
     </task>
     <servers />
   </component>
