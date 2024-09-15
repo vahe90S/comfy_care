@@ -5,12 +5,12 @@ import {Outlet} from 'react-router-dom'
 
 export default function Layout({usersData, setUsersData}) {
     return (
-        <div>
+        <>
             <Header usersData={usersData} setUsersData={setUsersData}/>
             <div className="outlet" style={{padding: '80px 20px'}}>
                 <Outlet/>
             </div>
             <Footer/>
-        </div>
+        </>
     )
 }

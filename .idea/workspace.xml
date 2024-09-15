@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a19a22f4-2432-4ff5-b432-0d53ee2b8e77" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewborns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Purchases/ChildrenAndNewborns/ChildrenAndNewborns.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;comfy__care&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/media/vahe/Data/Vahe's Backup/comfy_care/public/images/Pipette-diaper-cream&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -98,6 +103,7 @@
       <workItem from="1726117022650" duration="17144000" />
       <workItem from="1726378416533" duration="6000" />
       <workItem from="1726381081601" duration="1570000" />
+      <workItem from="1726412797936" duration="1388000" />
     </task>
     <servers />
   </component>

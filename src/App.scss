@@ -1,1 +1,15 @@
 @use './styles/variables' as vars;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .outlet {
+    flex: auto;
+  }
+
+  footer {
+    flex-shrink: 0;
+  }
+}

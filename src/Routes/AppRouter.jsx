@@ -26,7 +26,7 @@ export default function AppRouter() {
         getUsersData();
     }, []);
     return (
-        <div>
+        <>
             <Routes>
                 <Route path='/' element={<Layout usersData={usersData} setUsersData={setUsersData}/>}>
                     <Route index element={<Home/>}/>
@@ -44,7 +44,7 @@ export default function AppRouter() {
                 <Route path='login' element={<LoginPage/>}/>
                 <Route path='registration' element={<Registration/>}/>
             </Routes>
-        </div>
+        </>
     )
 }
 
