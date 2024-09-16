@@ -1,7 +1,15 @@
 @use 'sass:math';
 
 @function rem($size) {
-	$remSize: math.div($size, 16);
-	@return #{$remSize}rem;
+  $remSize: math.div($size, 16);
+  @return #{$remSize}rem;
 }
+
+//primaryColors
 $primaryColor: #7c896d;
+
+//media
+
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

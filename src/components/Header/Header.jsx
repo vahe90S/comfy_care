@@ -44,7 +44,6 @@ export default function Header({usersData, setUsersData}) {
                 <Registration openRegistrationBlock={openRegistrationBlock} usersData={usersData}
                               setUsersData={setUsersData}/>
             </div>
-
             <div className='container-right-side'>
                 <i className='icon-basket basket'/>
                 <i onClick={openRegistrAndLogIn} className='icon-user'/>
@@ -53,6 +52,9 @@ export default function Header({usersData, setUsersData}) {
                     style={{maxHeight: openUser ? "700px" : "0px"}}
                 >
                     <RegistrationAndLogIn openRegistrationBlock={openRegistrationBlock}/>
+                </div>
+                <div className="container-burger">
+                    <span></span>
                 </div>
             </div>
         </header>

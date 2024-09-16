@@ -1,4 +1,5 @@
 @use '../../styles/variables.scss' as *;
+@use '../../styles/media/headerMedia.scss' as *;
 
 header {
   display: flex;
@@ -7,6 +8,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 999;
   background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 0 rem(20);
@@ -35,6 +37,7 @@ header {
     display: flex;
     column-gap: rem(20);
     position: relative;
+    align-items: center;
 
     .container-register-and-login {
       max-height: 0;
@@ -50,6 +53,42 @@ header {
       font-size: rem(20);
       cursor: pointer;
     }
+
+    .container-burger {
+      position: relative;
+      max-height: 0;
+      max-width: 0;
+      overflow: hidden;
+
+      span {
+        display: block;
+        height: rem(2);
+        width: rem(20);
+        background: $primaryColor;
+        border-radius: rem(10);
+
+        &:before,
+        &:after {
+          content: '';
+          position: absolute;
+          display: block;
+          height: rem(2);
+          width: rem(20);
+          background: $primaryColor;
+          border-radius: rem(10);
+        }
+
+        &:after {
+          top: rem(8);
+        }
+
+        &:before {
+          top: rem(-8);
+        }
+      }
+    }
   }
 }
+
+
 
