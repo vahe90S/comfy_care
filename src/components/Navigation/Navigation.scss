@@ -1,93 +1,94 @@
 @use '../../styles/variables.scss' as *;
+@use '../../styles/media/navigationMedia.scss' as *;
 
-nav {
-	flex: auto;
+.small-desktop-navigation,
+.navigation {
+  flex: auto;
+  transition: all 0.4s ease;
 
-	.main-container-purchases {
-		display: flex;
-		gap: rem(20);
+  .main-container-purchases {
+    display: flex;
+    gap: rem(20);
 
-		li {
-			position: relative;
-			padding: rem(6);
-			color: $primaryColor;
-			transition: background 0.4s ease, color 0.4s ease, border-radius 0.4s ease;
-			border-radius: rem(10);
+    li {
+      position: relative;
+      padding: rem(6);
+      color: $primaryColor;
+      transition: background 0.4s ease, color 0.4s ease, border-radius 0.4s ease;
+      border-radius: rem(10);
 
-			&:hover .container-purchases {
-				overflow: visible;
-			}
+      &:hover,
+      &:focus-within {
+        background: $primaryColor;
+        color: #ffffff;
+      }
 
-			&:hover,
-			&:focus-within {
-				background: $primaryColor;
-				color: #ffffff;
-			}
+      &:first-child {
+        border-radius: rem(10) rem(10) 0 0;
+      }
 
-			&:first-child:hover {
-				border-radius: rem(10) rem(10) 0 0;
-			}
+      &:first-child:hover .container-make-purchases i {
+        transform: rotate(180deg);
+      }
 
-			&:first-child:hover .container-make-purchases i {
-				transform: rotate(180deg);
-			}
+      .container-make-purchases {
+        display: flex;
 
-			.container-make-purchases {
-				display: flex;
+        i {
+          transition: transform 0.4s ease;
+          margin-left: rem(4);
+        }
+      }
 
-				i {
-					transition: transform 0.4s ease;
-					margin-left: rem(4);
-				}
-			}
+      a,
+      span {
+        cursor: pointer;
+      }
 
-			a,
-			span {
-				cursor: pointer;
-			}
+      &:hover .container-purchases {
+        opacity: 1;
+        visibility: visible;
+        max-height: rem(200);
+      }
 
-			&:hover .container-purchases {
-				max-height: rem(500);
-			}
+      .container-purchases {
+        min-width: rem(230);
+        position: absolute;
+        top: rem(18);
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: rem(10);
+        background: $primaryColor;
+        transition: all 0.6s ease;
+        border-radius: 0 rem(10) rem(10) rem(10);
+        opacity: 0;
+        visibility: hidden;
+        max-height: 0;
 
-			.container-purchases {
-				min-width: rem(230);
-				position: absolute;
-				top: rem(18);
-				left: 0;
-				display: flex;
-				overflow: hidden;
-				flex-direction: column;
-				margin-top: rem(10);
-				max-height: 0;
-				background: $primaryColor;
-				transition: all 0.6s ease;
-				border-radius: 0 rem(10) rem(10) rem(10);
+        &:before {
+          content: '';
+          display: block;
+          height: rem(25);
+          width: rem(25);
+          position: absolute;
+          border-radius: 50%;
+          top: -24px;
+          right: 19px;
+          background: transparent;
+          transform: rotate(241deg);
+          transition: box-shadow 0.4s ease;
+        }
 
-				&:before {
-					content: '';
-					display: block;
-					height: rem(25);
-					width: rem(25);
-					position: absolute;
-					border-radius: 50%;
-					// box-shadow: -5px -11px 0 #7c896d;
-					top: -24px;
-					right: 19px;
-					background: transparent;
-					transform: rotate(241deg);
-					transition: box-shadow 0.4s ease;
-				}
+        li {
+          margin: rem(6) 0;
+          color: #ffffff;
+        }
+      }
 
-				li {
-					margin: rem(6) 0;
-					color: #ffffff;
-				}
-			}
-
-			&:hover .container-purchases:before {
-				box-shadow: -5px -11px 0 #7c896d;
-			}
-		}
-	}
+      &:hover .container-purchases:before {
+        box-shadow: -5px -11px 0 #7c896d;
+      }
+    }
+  }
 }

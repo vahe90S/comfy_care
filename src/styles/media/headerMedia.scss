@@ -2,8 +2,10 @@
 
 
 @media (max-width: $breakpoint-desktop) {
-  header .container-right-side .container-burger {
-    max-height: rem(50);
-    max-width: rem(50);
+  header div.container-right-side {
+    .container-burger {
+      display: block;
+      margin-left: rem(16);
+    }
   }
 }

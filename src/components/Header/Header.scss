@@ -4,7 +4,11 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: rem(80);
+  width: 100vw;
+  max-width: 100%;
+
   position: sticky;
   top: 0;
   left: 0;
@@ -17,6 +21,7 @@ header {
     max-width: rem(40);
     height: rem(40);
     margin-right: rem(20);
+    flex: auto;
 
     img {
       width: 100%;
@@ -35,30 +40,20 @@ header {
 
   .container-right-side {
     display: flex;
-    column-gap: rem(20);
     position: relative;
     align-items: center;
 
-    .container-register-and-login {
-      max-height: 0;
-      overflow: hidden;
-      position: absolute;
-      top: rem(55);
-      left: rem(-172);
-      transition: all 0.4s ease;
-    }
-
-    i {
-      color: $primaryColor;
-      font-size: rem(20);
-      cursor: pointer;
+    .container-basket-user {
+      display: flex;
+      column-gap: rem(14);
     }
 
     .container-burger {
+      height: rem(30);
+      width: rem(30);
       position: relative;
-      max-height: 0;
-      max-width: 0;
-      overflow: hidden;
+      display: none;
+      cursor: pointer;
 
       span {
         display: block;
@@ -66,6 +61,9 @@ header {
         width: rem(20);
         background: $primaryColor;
         border-radius: rem(10);
+        position: absolute;
+        top: rem(14);
+        left: rem(5);
 
         &:before,
         &:after {
@@ -87,6 +85,23 @@ header {
         }
       }
     }
+
+    .container-register-and-login {
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      top: rem(55);
+      left: rem(-172);
+      transition: all 0.4s ease;
+    }
+
+    i {
+      color: $primaryColor;
+      font-size: rem(20);
+      cursor: pointer;
+    }
+
+
   }
 }
 

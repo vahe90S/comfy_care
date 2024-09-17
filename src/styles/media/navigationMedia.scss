@@ -1,0 +1,56 @@
+@use '../../styles/variables.scss' as *;
+
+
+@media (max-width: $breakpoint-desktop) {
+  header {
+
+    .small-desktop-navigation {
+      color: #ffffff;
+      position: absolute;
+      top: rem(100);
+      right: rem(20);
+      display: flex;
+
+      .main-container-purchases {
+        flex-direction: column;
+        background: $primaryColor;
+        width: auto;
+
+        li {
+          color: #ffffff;
+          padding-bottom: rem(10);
+          border-radius: 0;
+          transition: all 0.4s ease;
+
+          &:not(:first-child):hover {
+            transform: translateX(20px);
+            opacity: 0.5;
+            background: transparent;
+          }
+
+          & .container-purchases {
+            position: relative;
+            left: rem(20);
+            top: 0;
+            margin-top: 0;
+            background: transparent;
+
+            li:hover {
+              transform: translateX(-20px);
+              opacity: 0.5;
+              background: transparent;
+            }
+
+            li a {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navigation {
+    display: none;
+  }
+}

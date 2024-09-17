@@ -16,6 +16,9 @@ const Registration = ({openRegistrationBlock, usersData, setUsersData}) => {
             userName,
             password,
             confirmPassword,
+            phoneNumber: "",
+            address: "",
+            userCart: []
         }
         const checkPassword = newUser.password === newUser.confirmPassword;
         if (checkPassword) {
