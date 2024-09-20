@@ -2,7 +2,7 @@ import React from 'react';
 import './Registration.scss'
 import {useNavigate} from "react-router-dom";
 
-const Registration = ({openRegistrationBlock, usersData, setUsersData}) => {
+const Registration = ({openRegistrationBlock, usersData, setUsersData, openLogin, setOpenLogin}) => {
     const navigate = useNavigate();
     const formSubmit = async (e) => {
         e.preventDefault();
@@ -17,8 +17,16 @@ const Registration = ({openRegistrationBlock, usersData, setUsersData}) => {
             password,
             confirmPassword,
             phoneNumber: "",
-            address: "",
-            userCart: []
+            Address: {
+                city: "",
+                street: "",
+                building: "",
+                entrance: "",
+                intercom: "",
+                floor: "",
+                apartment: ""
+            },
+            orderHistory: [],
         }
         const checkPassword = newUser.password === newUser.confirmPassword;
         if (checkPassword) {
@@ -32,8 +40,7 @@ const Registration = ({openRegistrationBlock, usersData, setUsersData}) => {
                     method: 'POST',
                     body: JSON.stringify(newUser),
                 })
-                navigate("/LoginPage")
-
+                setOpenLogin(!openLogin)
             }
         } else {
             alert("գաղտնաբառերը չեն համընկնում")
@@ -41,7 +48,7 @@ const Registration = ({openRegistrationBlock, usersData, setUsersData}) => {
     }
     return (
         <form className="content-registration" onSubmit={formSubmit}>
-            <h2>Լրացրեք դաշտը</h2>
+            <h2>Լրացրեք դաշտը գրանցվելու համար</h2>
             <div className="container-inp">
                 <label htmlFor="username">Username</label>
                 <input type="text" name="userName" placeholder="Enter your username" required/>

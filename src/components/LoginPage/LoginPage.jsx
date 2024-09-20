@@ -1,41 +1,30 @@
 import React from 'react';
-import {useLocation, useNavigate} from 'react-router-dom';
+import './LoginPage.scss';
 
-const Login = () => {
-    const location = useLocation();
-    const navigate = useNavigate();
+const LoginPage = ({OpenCloseLoginBlock}) => {
 
-    // Сохраняем путь, откуда пользователь пришёл
-    const fromPage = location.state?.from || '/';
-
-    const handleLogin = (e) => {
-        e.preventDefault();
-        // Логика авторизации...
-        // После успешного входа возвращаемся на предыдущую страницу
-        navigate(fromPage);
-    };
 
     return (
-        <div className="login-modal">
-            <div className="login-form">
-                <h2>Вход</h2>
-                <form onSubmit={handleLogin}>
-                    <div className="container-inp">
-                        <label htmlFor="username">Username</label>
-                        <input type="text" name="username" placeholder="Enter your username" required/>
-                    </div>
-                    <div className="container-inp">
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" placeholder="Enter your password" required/>
-                    </div>
-                    <div className="container-btns">
-                        <button type="submit">Войти</button>
-                        <button type="button" onClick={() => navigate(fromPage)}>Отмена</button>
-                    </div>
-                </form>
+        <form className="content-login">
+            <h2>Մուտքագրեք ձեր տվյալները անձնական էջ տեղափոխվելու համար</h2>
+            <div className="container-inp">
+                <label htmlFor="username">Username</label>
+                <input type="text" name="username" placeholder="Enter your username"/>
             </div>
-        </div>
+            <div className="container-inp">
+                <label htmlFor="password">Password</label>
+                <input type="password" name="password" placeholder="Enter your password"/>
+            </div>
+            <div className="container-inp">
+                <label htmlFor="username">Username</label>
+                <input type="password" name="confirmPassword" placeholder="Confirm your password"/>
+            </div>
+            <div className="container-btns">
+                <button type="submit">ՄՈՒՏՔ ԳՈՐԾԵԼ</button>
+                <button type="button" onClick={OpenCloseLoginBlock}>ԿԱՆԳՆԵՑՆԵԼ</button>
+            </div>
+        </form>
     );
 };
 
-export default Login;
+export default LoginPage;

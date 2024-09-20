@@ -1,0 +1,53 @@
+@use '../../styles/variables.scss' as *;
+
+@media (max-width: $breakpoint-desktop-small) {
+  .container-home {
+    .container-register-for-discount {
+      .container-text-get-discount {
+        h3 {
+          font-size: rem(26);
+        }
+
+        p {
+          font: 500 rem(18)/rem(22) roboto;
+        }
+      }
+
+      .container-sub-img {
+        max-width: rem(320);
+      }
+    }
+
+    .container-shop-by-category .container-category .category .caption-category {
+      max-width: rem(150);
+      height: rem(250);
+    }
+
+    .category a + a {
+      font: 400 rem(14)/rem(22) roboto;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .container-home {
+    .container-register-for-discount .container-text-get-discount {
+      padding: 0;
+
+      p {
+        text-align: center;
+      }
+
+      button {
+        align-self: center;
+      }
+    }
+
+    .container-register-for-discount {
+      display: flex;
+      flex-direction: column;
+      gap: rem(20);
+    }
+  }
+}
+

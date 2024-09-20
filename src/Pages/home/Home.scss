@@ -4,7 +4,7 @@
   .container-home-bg {
     background: linear-gradient(to right, #efc7a2, #7c896d);
     width: 100%;
-    height: rem(800);
+    padding: rem(120) rem(80);
   }
 
   .container-register-for-discount {
@@ -13,18 +13,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 rem(40);
 
     .container-text-get-discount {
       display: flex;
       flex-direction: column;
       row-gap: rem(20);
       color: $primaryColor;
+      padding-right: rem(20);
 
       p {
         max-width: rem(300);
-        font-size: rem(20);
-        font-weight: 700;
+        font: 700 rem(20)/rem(26) roboto;
       }
 
       button {
@@ -138,3 +137,6 @@
     }
   }
 }
+
+
+@import '../../styles/media/homeMedia.scss';

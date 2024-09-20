@@ -1,5 +1,4 @@
 @use '../../styles/variables.scss' as *;
-@use '../../styles/media/headerMedia.scss' as *;
 
 header {
   display: flex;
@@ -29,7 +28,8 @@ header {
     }
   }
 
-  .registration {
+  .registration,
+  .login {
     max-height: 0;
     overflow: hidden;
     position: absolute;
@@ -100,10 +100,9 @@ header {
       font-size: rem(20);
       cursor: pointer;
     }
-
-
   }
 }
 
+@import '../../styles/media/headerMedia.scss';
 
 

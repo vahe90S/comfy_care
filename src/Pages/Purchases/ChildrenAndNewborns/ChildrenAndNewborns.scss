@@ -2,7 +2,7 @@
 
 .container-child-and-mam {
   background: #f6f3ec;
-  padding: rem(40) 0;
+  padding: rem(40);
 
   h2, p {
     text-align: center;
@@ -13,6 +13,7 @@
   .sub-container-child-and-mam {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: rem(60);
 
     .container-product {
@@ -51,3 +52,5 @@
     }
   }
 }
+
+@import '../../../styles/media/ChildrenAndNewbornsMedia.scss';

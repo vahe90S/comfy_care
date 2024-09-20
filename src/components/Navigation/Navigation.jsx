@@ -2,9 +2,10 @@ import React from 'react'
 import './Navigation.scss'
 import {NavLink} from 'react-router-dom'
 
+
 export default function Navigation({burger}) {
     return (
-        <nav className={burger ? "small-desktop-navigation" : "navigation"}>
+        <nav className={`small-desktop-navigation ${burger ? "open" : "close"}`}>
             <ul className='main-container-purchases'>
                 <li>
                     <div className='container-make-purchases'>
@@ -40,5 +41,5 @@ export default function Navigation({burger}) {
                 </li>
             </ul>
         </nav>
-    )
+    );
 }

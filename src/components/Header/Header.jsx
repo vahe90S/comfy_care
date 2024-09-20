@@ -5,10 +5,12 @@ import Navigation from '../Navigation/Navigation';
 import {Link} from 'react-router-dom';
 import RegistrationAndLogIn from "../RegistrationAndLogIn/RegistrationAndLogIn";
 import Registration from "../Registration/Registration";
+import LoginPage from "../LoginPage/LoginPage";
 
 export default function Header({usersData, setUsersData}) {
     const [openUser, setOpenUser] = useState(false);
     const [openRegistration, setOpenRegistration] = useState(false);
+    const [openLogin, setOpenLogin] = useState(false);
     const [burger, setBurger] = useState(false);
 
     const openRegistrAndLogIn = () => {
@@ -16,8 +18,15 @@ export default function Header({usersData, setUsersData}) {
     };
 
     const openRegistrationBlock = () => {
+        setOpenLogin(false);
         setOpenRegistration(!openRegistration);
-        openRegistrAndLogIn();
+        setOpenUser(false);
+    };
+
+    const OpenCloseLoginBlock = () => {
+        setOpenRegistration(false);
+        setOpenLogin(!openLogin);
+        setOpenUser(false);
     };
 
     useEffect(() => {
@@ -40,7 +49,7 @@ export default function Header({usersData, setUsersData}) {
 
     let openMenu = () => {
         setBurger(!burger);
-    }
+    };
 
     return (
         <header>
@@ -48,9 +57,17 @@ export default function Header({usersData, setUsersData}) {
                 <img src={logo} alt='Logo' className='logo'/>
             </Link>
             <Navigation burger={burger}/>
-            <div className="registration" style={{maxHeight: openRegistration ? "800px" : "0px"}}>
+            <div className="registration" style={{
+                maxHeight: openRegistration ? "800px" : "0px",
+                maxWidth: openRegistration ? "405px" : "0px"
+            }}>
                 <Registration openRegistrationBlock={openRegistrationBlock} usersData={usersData}
-                              setUsersData={setUsersData}/>
+                              setUsersData={setUsersData}
+                              setOpenLogin={setOpenLogin} openLogin={openLogin}/>
+            </div>
+            <div className="login"
+                 style={{maxHeight: openLogin ? "800px" : "0px", maxWidth: openLogin ? "405px" : "0px"}}>
+                <LoginPage OpenCloseLoginBlock={OpenCloseLoginBlock}/>
             </div>
             <div className='container-right-side'>
                 <div className="container-basket-user">
@@ -61,7 +78,8 @@ export default function Header({usersData, setUsersData}) {
                     className="container-register-and-login"
                     style={{maxHeight: openUser ? "700px" : "0px"}}
                 >
-                    <RegistrationAndLogIn openRegistrationBlock={openRegistrationBlock}/>
+                    <RegistrationAndLogIn openRegistrationBlock={openRegistrationBlock}
+                                          OpenCloseLoginBlock={OpenCloseLoginBlock}/>
                 </div>
                 <div className="container-burger" onClick={openMenu}>
                     <span></span>

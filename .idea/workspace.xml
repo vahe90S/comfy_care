@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19a22f4-2432-4ff5-b432-0d53ee2b8e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/media/navigationMedia.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/AppRouter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegistrationAndLogIn/RegistrationAndLogIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationAndLogIn/RegistrationAndLogIn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/DB.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/DB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/media/headerMedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/media/headerMedia.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media/navigationMedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/media/navigationMedia.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,8 @@
       <workItem from="1726425728767" duration="5022000" />
       <workItem from="1726464116337" duration="7998000" />
       <workItem from="1726472131297" duration="75000" />
-      <workItem from="1726472214882" duration="16903000" />
+      <workItem from="1726472214882" duration="17156000" />
+      <workItem from="1726636839542" duration="29706000" />
     </task>
     <servers />
   </component>

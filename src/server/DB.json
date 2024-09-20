@@ -1,5 +1,6 @@
 {
-  "userData": [],
+  "userData": [
+  ],
   "honestDiaperCream": [
     {
       "id": "1",
@@ -37,9 +38,9 @@
       "price": "8400 ֏",
       "name": "lorem ipsum",
       "freeShipping": "25000 dr. + gnelu depqum kunenaq anvchar araqum",
-      "quantity": "1",
+      "quantity": "7",
       "aroma": "Vanilla + Ylang Ylang",
-      "size": "Travel 1.69 fl oz"
+      "size": "Regular 11.8 fl oz"
     },
     {
       "id": "2",

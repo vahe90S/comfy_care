@@ -41,7 +41,7 @@ export default function AppRouter() {
                     <Route path='BestSeller' element={<BestSeller/>}/>
                     <Route path='GiftSets' element={<GiftSets/>}/>
                 </Route>
-                <Route path='login' element={<LoginPage/>}/>
+                <Route path='loginPage' element={<LoginPage/>}/>
                 <Route path='registration' element={<Registration/>}/>
             </Routes>
         </>
